@@ -1,29 +1,18 @@
-.navbar {
-    height: 50px;
-    background-color: #000080;
-    display: flex;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: space-between;
+.card{
+    margin: 20px;
+    width: auto;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f7ffff, #d0dbd8);
+    box-shadow:  20px 20px 40px #8d9492,
+    -20px -20px 40px #ffffff;
 }
 
-.brand {
-    font-weight: 500;
-    font-size: large;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
+.box{
+    height: max-content;
+    width: max-content;
+    border: 1px solid black;
+    animation-duration: 2s;
+
 }
 
-.navLinks {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.navLinks a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    font-weight: 500;
-}

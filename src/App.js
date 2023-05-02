@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
 
 function App() {
     const hello = "Hello World!"
     return (
-        <h1>{hello}</h1>
+        <Navbar/>
+
     );
 }
 
