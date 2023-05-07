@@ -1,18 +1,39 @@
-.card{
-    margin: 20px;
-    width: auto;
-    padding: 20px 50px;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #f7ffff, #d0dbd8);
-    box-shadow:  20px 20px 40px #8d9492,
-    -20px -20px 40px #ffffff;
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.box{
-    height: max-content;
-    width: max-content;
-    border: 1px solid black;
-    animation-duration: 2s;
-
+.links {
+    float: left;
 }
 
+.links a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #111;
+}
+
+.github {
+    float: right;
+}
+
+.github a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.github a:hover {
+    background-color: #111;
+}
